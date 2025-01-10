@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-crazy",
   "version": "1.0.0",
   "description": "cli for getting weather",
   "keywords": [
@@ -7,14 +7,18 @@
     "weather"
   ],
   "license": "ISC",
-  "author": "alex",
+  "author": "artcryptorg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artcryptorg/weather-cli"
+  },
   "main": "weather.js",
   "bin": {
-    "weather": "./weather.js"
+    "weather": "weather.js"
   },
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
